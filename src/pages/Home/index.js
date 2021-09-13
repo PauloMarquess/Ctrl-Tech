@@ -1,6 +1,7 @@
 import react from "react";
+import Destak from "../../components/Destak";
 import SectionOne from "../../components/SectionOne";
-import SectionTwo from "../../components/SectionTwo/styled";
+import SectionTwo from "../../components/SectionTwo";
 import * as S from './styled'
 
 
@@ -13,6 +14,7 @@ import * as S from './styled'
         </header>
         <main>
             <SectionTwo/>
+            <Destak/>
         </main>
         </>
     )
