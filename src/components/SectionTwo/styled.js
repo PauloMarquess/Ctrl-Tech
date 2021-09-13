@@ -11,6 +11,10 @@ flex-wrap: wrap;
 justify-content:space-around;
 align-items: baseline;
 
+@media (max-width:700px){
+    padding: 22px;
+}
+
 `
 
 export const Card =styled.div`
@@ -23,6 +27,9 @@ flex-direction: column;
 
 @media (max-width:700px) {
     width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 `
@@ -39,6 +46,10 @@ color: #626262;
 `
 export const Title = styled.section`
 margin: 5% 0 5% 5%;
+
+@media (max-width:700px){
+    padding: 10px;
+}
 
 `
 export const Paragraph =styled.p`

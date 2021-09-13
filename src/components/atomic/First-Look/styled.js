@@ -32,6 +32,7 @@ margin-bottom: 20px;
 
 @media (max-width:700px){
     width: 90%;
+    
 }
 
 
@@ -41,6 +42,11 @@ margin-top: 30px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+
+@media (max-width:700px){
+    
+    
+}
 
 
 
@@ -60,6 +66,8 @@ export const H3 =styled.h3`
 
 color: #FFF;
 text-shadow: -3px 2px 3px #79dbed;
+
+
 `
 export const Strong =styled.span`
 
@@ -70,11 +78,22 @@ text-shadow: -3px 2px 3px #79dbed;
 export const H1 =styled.h1`
 
 color: #2586a5;
+
+@media (max-width:700px){
+    padding: 15px;
+    text-align: center;
+}
 `
 
 export const Paragraph =styled.p`
 
 color: #2586a5;
+
+@media (max-width:700px){
+    padding: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+}
 `
 export const Arrow =styled.div`
 @media (max-width:700px){
