@@ -43,6 +43,3 @@ text-align: end;
 color: #FFF;
 `
 
-export const Arrow =styled.div`
-
-`

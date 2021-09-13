@@ -46,7 +46,7 @@ const FirstLook = () => {
 
                         <S.Card>
                             <img src={Img4} />
-                            <S.Link  href="#">Acho que estou com Vírus</S.Link>
+                            <S.Link  href="#">Estou com Vírus</S.Link>
                         </S.Card>
 
                         <S.Card>

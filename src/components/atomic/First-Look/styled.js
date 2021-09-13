@@ -28,6 +28,7 @@ background: #FFF;
 padding: 20px;
 border-radius: 10px;
 text-align: center;
+margin-bottom: 20px;
 
 @media (max-width:700px){
     width: 90%;
@@ -41,12 +42,16 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 
-`
 
+
+`
 export const Card =styled.div`
 width:110px;
 padding: 10px;
 text-align: start;
+
+
+
 `
 export const Link =styled.a`
 color: #2586a5;
