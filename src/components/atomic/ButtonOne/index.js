@@ -5,7 +5,7 @@ import * as S from './styled'
 function ButtonOne() {
   return (
     <div>
-        <S.Button>FAZER ORÇAMENTO</S.Button>
+        <S.Button>Faça o Orçamento Agora!</S.Button>
     </div>
 
   );
