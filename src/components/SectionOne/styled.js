@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import Background from '../../assets/background.jpg'
-
+import Background2 from '../../assets/background2.jpg'
 
 export const Container =styled.div`
 
 background-image: url(${Background}) ;
 
+@media (max-width:700px){
+    background-image:url(${Background2});
+}
 
 
 `

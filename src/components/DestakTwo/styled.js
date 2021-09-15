@@ -9,8 +9,10 @@ color: #FFF;
 height: 50vh;
 
 @media (max-width:700px) {
-  width: 100%;
- 
+  
+ display: table;
+ margin: 1%;
+ padding: 5%;
 }
 `
 export const Container1 =styled.div`
@@ -19,6 +21,11 @@ margin-left:5%;
 margin-top:5%;
 
 @media (max-width:700px){
+  font-size: 9px;
+  text-align: left;
+  
+  width: 100%;
+  padding:5px;
   
 }
 `
@@ -31,7 +38,8 @@ margin-left:5%;
 margin-top:5%;
 
 @media (max-width:700px){
- 
+ width: 90%;
 }
 
 `
+
