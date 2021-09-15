@@ -11,13 +11,13 @@ import Acessories from '../../assets/Acessories.png'
 
 function SectionTwo() {
     return (
-        <S.Main>
+        <S.Main id="Service" >
             <S.Title>
                 <S.H1>NOSSOS SERVIÇOS</S.H1>
                 <S.H3>A DoutorReparo.com repara qualquer problema em informática</S.H3>
             </S.Title>
 
-            <S.Container>
+            <S.Container >
                 <S.Card>
                     <div>
                         <img src={Formatacao} />

@@ -6,7 +6,7 @@ import Verificado from '../../assets/verificado.png'
 
 function Story() {
     return (
-        <S.Main>
+        <S.Main id="Story">
             <S.Container1>
                 <S.H1>QUEM SOMOS</S.H1>
                 <S.H3>A DoutorReparo.com é líder em suporte em informática no sul do Brasil</S.H3>

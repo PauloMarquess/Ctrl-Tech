@@ -5,6 +5,7 @@ export const Main = styled.div`
   background:#434950;
   color: #FFF;
   justify-content: space-around;
+  height: 60vh;
 
 @media (max-width:700px){
     flex-direction: column;

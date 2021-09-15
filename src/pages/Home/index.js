@@ -8,7 +8,7 @@ import SectionOne from "../../components/SectionOne";
 import SectionTwo from "../../components/SectionTwo";
 import Slider from "../../components/Slider";
 import Story from "../../components/story";
-
+import Up from "../../components/atomic/Up"
 import * as S from './styled'
 
 
@@ -17,6 +17,7 @@ import * as S from './styled'
     return (
         <>
         <header>
+            <Up/>
             <SectionOne/>
         </header>
         <main>
