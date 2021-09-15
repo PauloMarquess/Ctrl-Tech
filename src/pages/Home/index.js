@@ -2,6 +2,7 @@ import react from "react";
 import Contato from "../../components/Contato";
 import Destak from "../../components/Destak";
 import DestakTwo from "../../components/DestakTwo";
+import Footer from "../../components/Footer";
 import Garantia from "../../components/Garantia";
 import SectionOne from "../../components/SectionOne";
 import SectionTwo from "../../components/SectionTwo";
@@ -27,6 +28,9 @@ import * as S from './styled'
             <Slider />
             <Contato/>
         </main>
+        <footer>
+            <Footer/>
+        </footer>
         </>
     )
 }

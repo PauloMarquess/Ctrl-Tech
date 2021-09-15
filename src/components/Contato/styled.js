@@ -79,9 +79,10 @@ padding: 20px;
 }
 
 @media (max-width:700px){
-    width: 80%;
-    font-size: 30px;
-    padding-top:30px ;
+    width: 100px;
+    font-size: 25px;
+    padding-top:10px ;
+    display: table;
     
 }
 `
@@ -92,7 +93,7 @@ vertical-align: text-top;
 margin: 10px;
 
 @media (max-width:700px){
-    font-size: 15px;
+    font-size: 10px;
 }
 `
 
