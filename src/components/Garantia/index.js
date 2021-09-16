@@ -5,6 +5,7 @@ import Baloes from '../../assets/baloes.png'
 import SemRep from '../../assets/sem-reparo.png'
 import Arrow from '../../assets/arrow-down.png'
 import ButtonOne from '../atomic/ButtonOne';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 // import { Container } from './styles';
 
 function Garantia() {
@@ -58,7 +59,7 @@ function Garantia() {
                 <h1>Agende Agora Mesmo e tenha um Técnico Especialista
                     na sua Casa ou Empresa</h1>
                 <img src={Arrow}/>
-                <ButtonOne/>
+               <AnchorLink href="#Contact"> <ButtonOne/></AnchorLink>
             </S.Container3>
         </S.Main>
 

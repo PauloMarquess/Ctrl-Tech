@@ -13,13 +13,13 @@ const Menu = () => {
             </div>
 
             <S.Navigation>
-               <AnchorLink href="#Service" > <S.Link>NOSSOS SERVIÇOS</S.Link></AnchorLink>
-                <S.Link href="#Garantia">NOSSA GARANTIA</S.Link>
-                <S.Link href="#Story">QUEM SOMOS</S.Link>
-                <S.Link href="#Contact" offset='100' >CONTATO</S.Link>
-                <ButtonOne />
+                <AnchorLink href="#Service"  > <S.Link>NOSSOS SERVIÇOS</S.Link></AnchorLink>
+                <AnchorLink  href="#Garantia"><S.Link>NOSSA GARANTIA</S.Link></AnchorLink>
+                <AnchorLink href="#Story"> <S.Link >QUEM SOMOS</S.Link></AnchorLink>
+                <AnchorLink href="#Contact"> <S.Link  >CONTATO</S.Link></AnchorLink>
+                 <AnchorLink href="#Contact"><ButtonOne /></AnchorLink>
             </S.Navigation>
-            
+
         </S.Container>
     )
 
