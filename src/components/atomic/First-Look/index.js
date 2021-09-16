@@ -48,25 +48,55 @@ const FirstLook = () => {
               <S.Link href="#">Ajuda com Wifi</S.Link>
             </S.Card>
 
-            <S.Card>
-              <img src={Img4} />
-              <S.Link href="#">Estou com Vírus</S.Link>
-            </S.Card>
+                        <AnchorLink href="#Contact">
+                            <S.Card >
+                                <img src={Img1} />
+                                <S.Link >Formatar Equipamento</S.Link>
+                            </S.Card>
+                        </AnchorLink>
 
-            <S.Card>
-              <img src={Img5} />
-              <S.Link href="#"> Configurar SmartTv</S.Link>
-            </S.Card>
+                        <AnchorLink href="#Contact">
+                            <S.Card>
+                                <img src={Img2} />
+                                <S.Link >Ajuda de um Especialista</S.Link>
+                            </S.Card>
+                        </AnchorLink>
 
-            <S.Card>
-              <img src={Img6} />
-              <S.Link href="#">Problemas no meu Smartphone</S.Link>
-            </S.Card>
-          </S.ContainerIcons>
-        </div>
-      </S.Options>
-    </S.Container>
-  );
-};
+                        <AnchorLink href="#Contact">
+                            <S.Card>
+                                <img src={Img3} />
+                                <S.Link >Ajuda com Wifi</S.Link>
+                            </S.Card>
+                        </AnchorLink>
+
+                        <AnchorLink href="#Contact">
+                            <S.Card>
+                                <img src={Img4} />
+                                <S.Link >Estou com Vírus</S.Link>
+                            </S.Card>
+                        </AnchorLink>
+
+                        <AnchorLink href="#Contact">
+                            <S.Card>
+                                <img src={Img5} />
+                                <S.Link> Configurar  SmartTv</S.Link>
+                            </S.Card>
+                        </AnchorLink>
+
+                        <AnchorLink href="#Contact">
+                            <S.Card>
+                                <img src={Img6} />
+                                <S.Link>Problemas no meu Smartphone</S.Link>
+                            </S.Card>
+                        </AnchorLink>
+
+
+                    </S.ContainerIcons>
+                </div>
+            </S.Options>
+
+        </S.Container>
+    );
+}
 
 export default FirstLook;

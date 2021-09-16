@@ -1,26 +1,30 @@
 import React from "react";
 import ButtonOne from "../atomic/ButtonOne";
-import * as S from "./styled";
+import * as S from './styled'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Menu = () => {
-  return (
-    <S.Container>
-      <div>
-        <S.Strong href="#">
-          <strong>Doutor</strong>Reparo.com
-        </S.Strong>
-        <S.Paragraph>Mestre da informática</S.Paragraph>
-      </div>
+    return (
+        <S.Container>
 
-      <S.Navigation>
-        <S.Link href="#">NOSSOS SERVIÇOS</S.Link>
-        <S.Link href="#">NOSSA GARANTIA</S.Link>
-        <S.Link href="#">QUEM SOMOS</S.Link>
-        <S.Link href="#">CONTATO</S.Link>
-        <ButtonOne />
-      </S.Navigation>
-    </S.Container>
-  );
+            <div>
+                <S.Strong href='#'><strong>Doutor</strong>Reparo.com</S.Strong>
+                <S.Paragraph>Mestre da informática</S.Paragraph>
+            </div>
+
+            <S.Navigation>
+                <AnchorLink href="#Service"  > <S.Link>NOSSOS SERVIÇOS</S.Link></AnchorLink>
+                <AnchorLink  href="#Garantia"><S.Link>NOSSA GARANTIA</S.Link></AnchorLink>
+                <AnchorLink href="#Story"> <S.Link >QUEM SOMOS</S.Link></AnchorLink>
+                <AnchorLink href="#Contact"> <S.Link  >CONTATO</S.Link></AnchorLink>
+                 <AnchorLink href="#Contact"><ButtonOne /></AnchorLink>
+            </S.Navigation>
+
+        </S.Container>
+    )
+
+
+  
 };
 
 export default Menu;
