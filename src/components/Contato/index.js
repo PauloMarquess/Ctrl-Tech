@@ -8,8 +8,8 @@ import Telefone from '../../assets/Svg/phone.svg'
 
 function Contato() {
     return (
-        <S.Main>
-            <S.Container1 >
+        <S.Main id="Contact">
+            <S.Container1  >
                 <S.H1  >AGENDAMENTO EXPRESS NÓS VAMOS ATÉ VOCÊ! </S.H1>
                 <S.H3>SERVIÇOS COM GARANTIA DE 90 DIAS</S.H3><br/>
                 
@@ -26,7 +26,7 @@ function Contato() {
 
             <S.Container3>
                 <S.Speak>
-                    <img src={Chat} width="250px" /><br/>
+                    <img src={Chat} width="300px" /><br/>
                     <S.Btn2  href="https://api.whatsapp.com/send?phone=5587991054786" >WhatsApp</S.Btn2>
                 </S.Speak>
             </S.Container3>

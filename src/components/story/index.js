@@ -6,8 +6,8 @@ import Verificado from '../../assets/verificado.png'
 
 function Story() {
     return (
-        <S.Main id="Story">
-            <S.Container1>
+        <S.Main>
+            <S.Container1  id="Story">
                 <S.H1>QUEM SOMOS</S.H1>
                 <S.H3>A DoutorReparo.com é líder em suporte em informática no sul do Brasil</S.H3>
                 <h3>Fundada em 2006, a DoutorReparo.com nasceu da necessidade de suprir a demanda

@@ -7,12 +7,14 @@ export const Main = styled.div`
   background-image: url(${Img});
   color:#FFF;
   padding: 30px;
+  height: 70vh;
+  padding-top: 10%;
   
   @media (max-width:700px){
       display: flex;
       text-align: center;
       flex-wrap: wrap;
-      
+      height: auto;
   }
 `;
 

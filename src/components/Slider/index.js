@@ -15,7 +15,7 @@ function Slider() {
                 <h2>Clientes Atendidos:</h2>
             </S.Title>
 
-            <S.Empresas id="Contact" >
+            <S.Empresas  >
                 <S.Icons>
                     <img src={Img1} />
                 </S.Icons>
