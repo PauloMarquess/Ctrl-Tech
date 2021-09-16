@@ -10,6 +10,7 @@ import ButtonOne from '../atomic/ButtonOne';
 function Garantia() {
     return (
         <S.Main id="Garantia">
+            
             <S.Container1 >
                 <h1>NOSSA GARANTIA :</h1>
                 <h3>Prefira a Experiência Aliada a Credibilidade transmitida

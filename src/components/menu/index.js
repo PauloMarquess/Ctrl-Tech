@@ -3,7 +3,6 @@ import ButtonOne from "../atomic/ButtonOne";
 import * as S from './styled'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-
 const Menu = () => {
     return (
         <S.Container id ="Home">
@@ -14,10 +13,10 @@ const Menu = () => {
             </div>
 
             <S.Navigation>
-               <AnchorLink href="#Service"> <S.Link>NOSSOS SERVIÇOS</S.Link></AnchorLink>
+               <AnchorLink href="#Service" > <S.Link>NOSSOS SERVIÇOS</S.Link></AnchorLink>
                 <S.Link href="#Garantia">NOSSA GARANTIA</S.Link>
                 <S.Link href="#Story">QUEM SOMOS</S.Link>
-                <S.Link href="#Contact">CONTATO</S.Link>
+                <S.Link href="#Contact" offset='100' >CONTATO</S.Link>
                 <ButtonOne />
             </S.Navigation>
             

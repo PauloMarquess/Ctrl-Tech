@@ -9,7 +9,7 @@ import Gps from '../../assets/localization.png'
 
 function Footer() {
     return (
-        <S.Main>
+        <S.Main >
             <S.Container1>
                 <h1>Base Operacional</h1>
                   <S.Link href="https://goo.gl/maps/BRBPbdNNPtjU37qx7"> <S.Icons src={Gps} /> Avenida José Bonifácio</S.Link>

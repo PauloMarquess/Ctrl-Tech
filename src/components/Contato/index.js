@@ -9,8 +9,8 @@ import Telefone from '../../assets/Svg/phone.svg'
 function Contato() {
     return (
         <S.Main>
-            <S.Container1 id="Contact">
-                <S.H1>AGENDAMENTO EXPRESS NÓS VAMOS ATÉ VOCÊ! </S.H1>
+            <S.Container1 >
+                <S.H1  >AGENDAMENTO EXPRESS NÓS VAMOS ATÉ VOCÊ! </S.H1>
                 <S.H3>SERVIÇOS COM GARANTIA DE 90 DIAS</S.H3><br/>
                 
                 <S.Btn1 href="tel:08738218100"><img src={Telefone} width="50px" /><S.DDD>(87)</S.DDD>991054786</S.Btn1>
