@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Menu = () => {
     return (
-        <S.Container id ="Home">
+        <S.Container>
 
             <div>
                 <S.Strong href='#'><strong>Doutor</strong>Reparo.com</S.Strong>
