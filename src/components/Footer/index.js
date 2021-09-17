@@ -12,10 +12,10 @@ function Footer() {
         <S.Main >
             <S.Container1>
                 <h1>Base Operacional</h1>
-                  <S.Link href="https://goo.gl/maps/1xg7aqP8Podfgnxi9"> <S.Icons src={Gps} /> Avenida José Bonifácio</S.Link>
+                  <S.Link href="https://goo.gl/maps/1xg7aqP8Podfgnxi9"> <S.Icons src={Gps} /> Rua Prudente de Morais 261 <br/> &nbsp; &nbsp; &nbsp; &nbsp;Arcoverde -PE</S.Link>
                 <S.Link href="mailto:hma@hma.org.br?subject=Hello%20again"><S.Icons src={Email} /> paulinho_@hotmail.com</S.Link>
-                <S.Link href="tel:08738218100"><S.Icons src={Phone} /> (87) 99105-4786</S.Link>
-                <S.Link href="https://ctrl-tech.vercel.app/"><S.Icons src={Http} /> www.doutorreparo.com/</S.Link>
+                <S.Link href="tel:08774001690"><S.Icons src={Phone} /> (87) 7400-1690</S.Link>
+                <S.Link href="https://ctrl-tech.vercel.app/"><S.Icons src={Http} /> https://ctrl-tech.vercel.app</S.Link>
 
             </S.Container1>
 
