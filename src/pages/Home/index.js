@@ -8,6 +8,7 @@ import SectionTwo from "../../components/SectionTwo";
 import Slider from "../../components/Slider";
 import Story from "../../components/story";
 import Up from "../../components/atomic/Up";
+import Contato from "../../components/Contato";
 
 const Home = () => {
   return (
@@ -23,6 +24,8 @@ const Home = () => {
         <Story />
         <DestakTwo />
         <Slider />
+        <Contato/>
+        
       </main>
       <footer>
         <Footer />

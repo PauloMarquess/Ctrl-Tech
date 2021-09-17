@@ -13,7 +13,7 @@ function Contato() {
                 <S.H1  >AGENDAMENTO EXPRESS NÓS VAMOS ATÉ VOCÊ! </S.H1>
                 <S.H3>SERVIÇOS COM GARANTIA DE 90 DIAS</S.H3><br/>
                 
-                <S.Btn1 href="tel:08738218100"><img src={Telefone} width="50px" /><S.DDD>(87)</S.DDD>991054786</S.Btn1>
+                <S.Btn1 href="tel:08774001690"><img src={Telefone} width="50px" /><S.DDD>(87)</S.DDD>974001690</S.Btn1>
                 <S.Paragraph>Orçamento Preciso e Sem Surpresas
                     Agendamento Imediato, atendimento em *30 minutos
                 </S.Paragraph>
@@ -27,7 +27,7 @@ function Contato() {
             <S.Container3>
                 <S.Speak>
                     <img src={Chat} width="300px" /><br/>
-                    <S.Btn2  href="https://api.whatsapp.com/send?phone=5587991054786" >WhatsApp</S.Btn2>
+                    <S.Btn2  href="https://api.whatsapp.com/send?phone=558774001690" >WhatsApp</S.Btn2>
                 </S.Speak>
             </S.Container3>
 

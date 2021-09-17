@@ -15,7 +15,7 @@ function DestakTwo() {
             <S.Container2>
                 <h3>Ainda não é nosso(a) cliente?
                     Impressione-se com o atendimento Premium, com valor justo.</h3>
-                 <AnchorLink href="#Contact"> <ButtonTwo/></AnchorLink> 
+                 <AnchorLink href="#Contact" > <ButtonTwo/></AnchorLink> 
             </S.Container2>
         </S.Main>
     );

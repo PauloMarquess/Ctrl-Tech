@@ -8,7 +8,7 @@ const Menu = () => {
     <S.Container>
       <div>
         <S.Strong href="#">
-          <strong>Doutor</strong>Reparo.com
+          <strong>Ctrl </strong> Tech
         </S.Strong>
         <S.Paragraph>Mestre da informática</S.Paragraph>
       </div>
