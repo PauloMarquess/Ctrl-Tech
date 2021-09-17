@@ -23,7 +23,7 @@ const FirstLook = () => {
       </S.Commit>
 
       <S.Arrow>
-        <img src={ArrowRight} />
+        <img src={ArrowRight} alt="arrow" />
       </S.Arrow>
 
       <S.Options>
@@ -37,42 +37,42 @@ const FirstLook = () => {
           <S.ContainerIcons>
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img1} />
+                <img src={Img1} alt="arrow" />
                 <S.Link>Formatar Equipamento</S.Link>
               </S.Card>
             </AnchorLink>
 
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img2} />
+                <img src={Img2} alt="arrow" />
                 <S.Link>Ajuda de um Especialista</S.Link>
               </S.Card>
             </AnchorLink>
 
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img3} />
+                <img src={Img3} alt="arrow" />
                 <S.Link>Ajuda com Wifi</S.Link>
               </S.Card>
             </AnchorLink>
 
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img4} />
+                <img src={Img4} alt="arrow" />
                 <S.Link>Estou com Vírus</S.Link>
               </S.Card>
             </AnchorLink>
 
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img5} />
+                <img src={Img5} alt="arrow" />
                 <S.Link> Configurar SmartTv</S.Link>
               </S.Card>
             </AnchorLink>
 
             <AnchorLink href="#Contact">
               <S.Card>
-                <img src={Img6} />
+                <img src={Img6} alt="arrow" />
                 <S.Link>Problemas no meu Smartphone</S.Link>
               </S.Card>
             </AnchorLink>
