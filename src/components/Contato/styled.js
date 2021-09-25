@@ -85,6 +85,7 @@ padding: 20px;
     font-size: 25px;
     padding-top:10px ;
     display: table;
+    margin-left: 30px;
     
 }
 `

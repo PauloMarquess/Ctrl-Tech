@@ -6,8 +6,10 @@ export const Container =styled.div`
 
 background-image: url(${Background}) ;
 
+
 @media (max-width:700px){
     background-image:url(${Background2});
+    
 }
 
 
